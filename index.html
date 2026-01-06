@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <form action="">
-      <label>Task Name</label>
-      <input type="text" maxlength="20" value="Enter" required/>
-      <select id="priority-select" name="priority-select">
-        <option value=""></option>
-        <option value="High">High</option>
-        <option value="Normal">Normal</option>
-        <option value="Low">Low</option>
-      </select>
+    <form>
+      <div class="info">
+        <label>Task Name</label>
+        <input type="text" maxlength="20" value="enter task here" required/>
+        <label>Select Priority</label>
+        <select id="priority-select" name="priority-select">
+          <option value=""></option>
+          <option value="High">High</option>
+          <option value="Normal">Normal</option>
+          <option value="Low">Low</option>
+        </select>
+        <button>Submit</button>
+      </div>
     </form>
   </body>
 </html>
